@@ -1,11 +1,25 @@
 /* Anchor Navy(#344A5F), Primary Blue(#2A94D6), Slate Grey(#F0F1F2), White(#FFFFFF), Black(#000000) */
 
+html {
+    height: 100%;
+}
+
 body {
-	background-color: #344A5F;		
+	background: rgb(52,74,95);
+	/*background: linear-gradient(115deg, rgba(52,74,95,1) 31%, rgba(42,148,214,1) 72%, rgba(240,241,242,1) 100%);*/
+	/*background: linear-gradient(315deg, #1CB5E0 0%, #000851 100%);*/
+	/*background-image: linear-gradient(115deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);*/
+	background: url('../img/bg3.jpg');
+	background-size: cover;
+	/*height: 100%;
+    margin: 0;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	/*background-color: #344A5F;
 	border: 4px; 
 	border-style: solid; 
 	border-color: #2A94D6;
-	border-radius: 8px;
+	border-radius: 8px;*/
 	padding-bottom: 24px;
 }
 
@@ -37,7 +51,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #2A94D6;
-	border-radius: 3px;
+	border-radius: 8px;
 }
 
 li {
@@ -94,7 +108,7 @@ li.dropdown {
 
 @font-face {
 	font-family: OneDay;
-	src: url(ONEDAY.otf);
+	src: url('../fonts/oneday.otf');
 }
 
 #bg1 {
