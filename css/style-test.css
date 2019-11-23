@@ -5,11 +5,21 @@ html {
 }
 
 body {
+	
 	background: rgb(52,74,95);
+	/* background: linear-gradient(115deg, rgba(52,74,95,1) 31%, rgba(42,148,214,1) 72%, rgba(240,241,242,1) 100%); */
+	/* background: linear-gradient(315deg, #1CB5E0 0%, #000851 100%); */
 	background: linear-gradient(180deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+	/* background: url('../img/bg3.jpg'); */
 	background-size: cover;
+	/* height: 100%; */
     background-repeat: no-repeat;
     background-attachment: fixed;
+	/*background-color: #344A5F;
+	border: 4px; 
+	border-style: solid; 
+	border-color: #2A94D6;
+	border-radius: 8px;*/
 	padding-bottom: 24px;
 }
 
@@ -40,11 +50,15 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	/* background-color: #2A94D6; */
+	/* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+	/* border-radius: 8px; */
 }
 
 li {
 	float: left;
 	border-right: 1px solid #F0F1F2;
+	/* border-bottom: 1px solid #F0F1F2; */
 	border-radius: 16px;
 }
 
@@ -56,6 +70,7 @@ li:last-child {
 li a, .dropbtn {
 	font-family: OneDay;
 	display: inline-block;
+	/* color: #000000; */
 	color: #F0F1F2;
 	text-align: center;
 	padding: 14px 16px;
@@ -64,8 +79,10 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn{
 	border-radius: 16px;
+	/* background-color: #FFFFFF; */
 	background: rgb(255,255,255);
 	background: linear-gradient(270deg, rgba(255,255,255,0.16) 0%, rgba(240,241,242,0) 100%);
+	/* color: #000000; */
 	text-decoration: underline;
 }
 
@@ -79,7 +96,7 @@ li.dropdown {
 	border-radius: 16px;
 	background-color: #FFFFFF;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
 	z-index: 1;
 }
 
@@ -102,4 +119,10 @@ li.dropdown {
 @font-face {
 	font-family: OneDay;
 	src: url('../fonts/oneday.otf');
+}
+
+#bg1 {
+	background: url(Adirondacks.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
