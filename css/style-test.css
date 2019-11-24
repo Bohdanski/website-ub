@@ -8,8 +8,8 @@ body {
 	
 	background: rgb(52,74,95);
 	/* background: linear-gradient(115deg, rgba(52,74,95,1) 31%, rgba(42,148,214,1) 72%, rgba(240,241,242,1) 100%); */
-	/* background: linear-gradient(315deg, #1CB5E0 0%, #000851 100%); */
-	background: linear-gradient(180deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+	background: linear-gradient(315deg, #1CB5E0 0%, #000851 100%);
+	/* background: linear-gradient(180deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
 	/* background: url('../img/bg3.jpg'); */
 	background-size: cover;
 	/* height: 100%; */
