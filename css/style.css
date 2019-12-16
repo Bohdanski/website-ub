@@ -1,38 +1,40 @@
 /* Anchor Navy(#344A5F), Primary Blue(#2A94D6), Slate Grey(#F0F1F2), White(#FFFFFF), Black(#000000) */
 
-html {
-    height: 100%;
-}
-
 body {
-	background: rgb(52,74,95);
-	background: linear-gradient(180deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+	background: linear-gradient(225deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 	padding-bottom: 24px;
 }
 
+canvas {
+	border: 4px;
+	border-color: White;
+	border-radius: 8px;
+	border-style: solid;
+}
+
 h1 {
-	text-align: center; 
-	font-size: 48px; 
-	font-style: bold;
-	font-family: OneDay;
-	color: #F0F1F2;
+	color: White;
+	font-family: 'Oleo Script', cursive;
+	font-size: 48px;
+	text-align: center;
 }
 
 p {
-	text-align: center; 
-	font-size: 20px; 
-	font-family: 'Arial';
-	color: #FFFFFF;
+	color: White;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding: 16px;
+	text-align: center;
 }
 
-canvas {
-	border: 4px; 
-	border-style: solid; 
-	border-color: #F0F1F2;
-	border-radius: 8px;
+hr {
+	border-style: none none dotted none;
+	border-color: White;
+	border-width: 8px;
+	width: 10%;
 }
 
 ul {
@@ -43,9 +45,9 @@ ul {
 }
 
 li {
-	float: left;
-	border-right: 1px solid #F0F1F2;
 	border-radius: 16px;
+	border-right: 1px solid #F0F1F2;
+	float: left;
 }
 
 li:last-child {
@@ -54,7 +56,7 @@ li:last-child {
 }
 
 li a, .dropbtn {
-	font-family: OneDay;
+	font-family: 'Poppins', sans-serif;
 	display: inline-block;
 	color: #F0F1F2;
 	text-align: center;
@@ -97,9 +99,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-}
-
-@font-face {
-	font-family: OneDay;
-	src: url('../fonts/oneday.otf');
 }
